@@ -1,10 +1,10 @@
-    import React from 'react'
-
+    import React from 'react';
+    import "./main.css";
     function Main() {
     return (
-        <div>
-        
-        </div>
+        <main>
+            <h1>Main</h1>
+        </main>
     )
     }
 
