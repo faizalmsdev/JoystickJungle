@@ -4,7 +4,7 @@
     function SideMenu() {
     return (
         <div>
-            Side menu
+            <h1>Side menu</h1> 
         </div>
     )
     }
