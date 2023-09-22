@@ -1,9 +1,9 @@
     import React, { useState } from 'react';
     import "./sideMenu.css";
-    import navListData from '../data/navListData';
-    import NavListitem from './NavListitem';
-    import socialListData from '../data/socialListData';
-    import SocialListitem from './SocialListitem';
+    import navListData from '../../data/navListData';
+    import NavListitem from '../NavListitem';
+    import socialListData from '../../data/socialListData';
+    import SocialListitem from '../SocialListitem';
 
     function SideMenu() {
         const[navData,setNavData] = useState(navListData);
