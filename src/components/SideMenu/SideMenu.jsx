@@ -5,10 +5,10 @@
     import socialListData from '../../data/socialListData';
     import SocialListitem from '../SocialListitem';
 
-    function SideMenu() {
+    function SideMenu({active}) {
         const[navData,setNavData] = useState(navListData);
     return (
-        <div className='sideMenu'>
+        <div className={`sideMenu ${active ? 'active' : undefined}`}>
             {/* Logo  */}
             <a href="#" className='logo'>
                 <i className="bi bi-joystick"></i>
