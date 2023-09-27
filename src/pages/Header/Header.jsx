@@ -1,6 +1,6 @@
     import React from 'react';
     import './header.css';
-    import userImg from "../../assets/images/user.jpg";
+    import userImg from "../../images/user.jpg";
 
     function Header({toggleActive}) {
     return (
