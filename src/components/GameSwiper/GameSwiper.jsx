@@ -43,6 +43,16 @@
                         <SwiperSlide key={game._id}>
                             <div className="gameSlider">
                                 <img src={game.img} alt="Game Img" />
+                                <div className="video">
+                                    <iframe 
+                                        width="1280"
+                                        height="720"
+                                        src={game.trailer}
+                                        title={game.title}
+                                        allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;'
+                                        allowFullScreen
+                                    ></iframe>
+                                </div>
                                 <div className="content">
                                     <h2>{game.title}</h2>
                                     <p>{game.description}</p>
