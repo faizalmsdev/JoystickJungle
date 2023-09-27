@@ -18,7 +18,7 @@
 
         return (
             <Swiper 
-                effect={'coverfow'}
+                effect={'coverflow'}
                 grabCursor={true}
                 navigation={true}
                 loop={true}
