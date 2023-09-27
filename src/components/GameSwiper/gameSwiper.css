@@ -56,3 +56,70 @@
     font-size: 1.5rem;
     color: #ffffff;
 }
+
+.gameSlider .content{
+    position: absolute;
+    bottom: 20px;
+    z-index: 1000;
+    width: 60%;
+}
+
+.gameSlider .content h2{
+    font-family: 'Bauhaus 93';
+    font-size: 3.5rem;
+}
+
+.gameSlider .content p{
+    color: #ebebeb;
+    font-size: 0.8rem;
+}
+
+.gameSlider .content .buttons{
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.gameSlider .content .buttons a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.gameSlider .content .buttons .orderBtn {
+    padding: 8px 20px;
+    background: var(--second);
+    border-radius: 10px;
+}
+
+.gameSlider .content .buttons .playBtn {
+    height: 50px;
+    width: 50px;
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(20px);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+}
+
+.playBtn .play{
+    display: block;
+}
+
+.playBtn .pause {
+    display: none;
+}
+
+.playBtn.active .play{
+    display: none;
+}
+
+.swiper-slide.swiper-slide-active .playBtn.active .play{
+    display: none;
+}
+
+.swiper-slide.swiper-slide-active .playBtn.active .pause{
+    display: block;
+}
